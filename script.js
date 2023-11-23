@@ -43,11 +43,25 @@ var typed = new Typed(".typing-text", {
 
 let projects = [
     {
-        "img": "assets/images/project/website.png",
-        "name": "Website",
-        "desc": "My Portfolio Website",
-        "link": "https://awk2824.github.io",
-        "code": "https://github.com/Awk2824/Awk2824.github.io"
+        'img': 'assets/images/project/website.png',
+        'name': 'Website',
+        'desc': 'My Portfolio Website',
+        'link': 'https://awk2824.github.io',
+        'code': 'https://github.com/Awk2824/Awk2824.github.io'
+    },
+    {
+        'img': 'assets/images/project/mobprog.png',
+        'name': 'Marketplace Mobile App',
+        'desc': 'Marketplace applications for android called "Maniere" made using Flutter',
+        'link': 'https://drive.google.com/file/d/17FVjt0CIrDXC2pfYkHPuJuzsj6QahhGn/view?usp=sharing',
+        'code': 'https://github.com/Dzeisonov/marketplace'
+    },
+    {
+        'img': 'assets/images/project/logo1.png',
+        'name': 'Logo Design',
+        'desc': 'Some logo designs that I\'ve created',
+        'link': 'https://drive.google.com/drive/folders/1AEk8z-khp-ehJ0AJhozFs8EnROf6K6h6?usp=sharing',
+        'code': ''
     }
 ]
 
