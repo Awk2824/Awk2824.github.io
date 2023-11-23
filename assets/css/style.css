@@ -326,7 +326,7 @@ header .navbar ul li a:hover {
     }
 
     .home .image img {
-        margin-top: -12rem;
+        text-align: center;
     }
 
     .home .content p {
