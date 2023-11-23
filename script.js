@@ -39,3 +39,36 @@ var typed = new Typed(".typing-text", {
     backDelay: 500,
 });
 // Typing JS Effect End 
+
+
+let projects = [
+    {
+        "img": "assets/images/project/website.png",
+        "name": "Website",
+        "desc": "My Portfolio Website",
+        "link": "https://awk2824.github.io",
+        "code": "https://github.com/Awk2824/Awk2824.github.io"
+    }
+]
+
+function showProjects(projects) {
+    const projectContainer = document.querySelector('#project .box-container');
+    projectContainer.innerHTML = projects.map(project => `
+    <div class="box">
+        <img src="${project.img}" alt="${project.name}" />
+        <div class="content">
+            <div class="tag">
+                <h3>${project.name}</h3>
+            </div>
+            <div class="desc">
+                <p>${project.desc}</p>
+                <div class="btns">
+                    <a href="${project.link}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                    <a href="${project.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>`).join('');
+}
+
+showProjects(projects);
